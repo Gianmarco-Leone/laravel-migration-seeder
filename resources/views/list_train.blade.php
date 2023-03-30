@@ -7,7 +7,7 @@
 @section('main_content')
 <div class="container">
 
-    <div class="row g-3 py-5">
+    <div id="trains" class="row g-3 py-5">
         @forelse($trains as $train)
         <div class="col-3">
             @include('partials._train_card')
@@ -20,7 +20,7 @@
     </div>
 
     <div class="text-center my-5">
-        <a class="btn btn-dark" href="{{ route('home') }}">Torna alla home</a>
+        <a class="btn btn-dark" href="#trains">Torna all' inizio</a>
     </div>
 </div>
 @endsection

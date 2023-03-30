@@ -5,6 +5,8 @@
 
 > Creiamo una tabella trains e relativa Migration
 
+![Screenshot](./public/img/Screenshot_1.png)
+
 ## Tecnologie e Librerie:
 
 -   Html
