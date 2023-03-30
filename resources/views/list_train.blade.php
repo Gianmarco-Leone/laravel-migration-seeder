@@ -19,8 +19,8 @@
         @endforelse
     </div>
 
-    <div class="text-center mt-5">
-        <a class="text-center" href="{{ route('home') }}">Torna alla home</a>
+    <div class="text-center my-5">
+        <a class="btn btn-dark" href="{{ route('home') }}">Torna alla home</a>
     </div>
 </div>
 @endsection

@@ -13,7 +13,7 @@
 
 <body>
   <main>
-    <h1 class="text-center">@yield('page_title')</h1>
+    <h1 class="text-center my-5">@yield('page_title')</h1>
     @yield('main_content')
   </main>
 </body>
