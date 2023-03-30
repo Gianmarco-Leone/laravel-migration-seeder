@@ -12,6 +12,11 @@
 </head>
 
 <body>
+
+  <header>
+    @include('partials._navbar')
+  </header>
+
   <main>
     <h1 class="text-center my-5">@yield('page_title')</h1>
     @yield('main_content')

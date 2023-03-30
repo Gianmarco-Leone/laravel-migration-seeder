@@ -1,9 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
-.jumbotron {
-    min-height: 100vh;
-}
-
-img {
-    max-height: 150px;
+main {
+    .container {
+        .card {
+            min-height: 500px;
+        }
+    }
 }

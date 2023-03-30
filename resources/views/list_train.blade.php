@@ -7,7 +7,7 @@
 @section('main_content')
 <div class="container">
 
-    <div class="row py-5">
+    <div class="row g-3 py-5">
         @forelse($trains as $train)
         <div class="col-3">
             @include('partials._train_card')
